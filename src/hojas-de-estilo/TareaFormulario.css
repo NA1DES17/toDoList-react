@@ -27,3 +27,15 @@
   color: white;
   text-transform: capitalize;
 }
+
+@media screen and (max-width: 430px) {
+  .tarea-input {
+    width: calc(100% - 150px);
+  }
+}
+@media screen and (max-width: 320px) {
+  .tarea-boton {
+    width: fit-content;
+    padding: 16px 4px;
+  }
+}
